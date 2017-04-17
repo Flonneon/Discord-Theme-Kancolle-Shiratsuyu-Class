@@ -1,0 +1,22 @@
+Changelog: 1.04 (17th april 2017)
+-recolored search bar and search result pop up
+-recolored recent mentions
+- fixed several minor issues
+
+Changelog: 1.03 (13th September 2016)
+-recolored Server Options
+-fixed colors for Server Settings,Direct Calls,Friend Section and others
+
+
+Changelog: 1.02 (28th July 2016)
+-recolored Direct Call and Direct Group Message
+-recolored '@user' search window
+-minor fixes
+
+
+Changelog: 1.01 (11th July 2016)
+
+-fixed Chat Transparency
+-recolored 'Recent Mentions'
+-fixed 'Pinned Messages' colors
+-recolored Discord's Changelog Messages

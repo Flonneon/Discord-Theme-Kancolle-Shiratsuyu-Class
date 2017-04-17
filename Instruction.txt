@@ -1,0 +1,9 @@
+(for windows desktop only)
+
+1st : move the 'Shiratsuyu-Class.theme.css' to the folder in C:\Users\your.name\AppData\Roaming\BetterDiscord\themes (or type %appdata% in the windows searchbar and look for betterdiscord-->themes) 
+
+2nd : start/restart Discord
+
+3rd : go to User Settings/Appearance and select 'Darktheme' as Theme and 'Cozy' as Message Display (otherwise this theme is not displayed properly)
+
+4th : User Settings/Betterdiscord; check the box for this theme under 'Themes' tab and press done 
