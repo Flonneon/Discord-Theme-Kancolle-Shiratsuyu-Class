@@ -1,3 +1,8 @@
+Changelog: 1.05 (30th April 2017)
+-removed the 3rd black layer which covered the background picture
+-fixed colors of buttons,fonts borders and backgrounds
+
+
 Changelog: 1.04 (17th april 2017)
 -recolored search bar and search result pop up
 -recolored recent mentions

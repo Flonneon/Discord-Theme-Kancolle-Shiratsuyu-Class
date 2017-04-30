@@ -1,4 +1,4 @@
-//META{"name":"Shiratsuyu_Theme","description":"pink fluffy DDs in Yukatas","author":"Flonneon","version":"1.03"}*//
+//META{"name":"Shiratsuyu_Theme","description":"pink fluffy DDs in Yukatas","author":"Flonneon","version":"1.05"}*//
 		/*================================= Background =================================*/
 
 
@@ -22,6 +22,10 @@ background-size: cover;
 
 	.theme-dark .chat{
 	background:transparent;
+}
+
+.theme-dark .layer, .theme-dark .layers {
+        background: transparent;
 }
 		/*================================= Tooltips =================================*/	
 
@@ -98,11 +102,6 @@ background: #816578;
 		.guilds-wrapper {
 		background: #5D3540;
 		opacity: .9;
-}
-
-		.guilds-wrapper .guilds .guild {
-		border: 1px solid #FFFFFF;
-		border-radius: 50%;
 }
 	
 		.guilds-wrapper .guilds .guild .guild-inner {
@@ -256,7 +255,7 @@ background: #824a59;
 }
 
 .popout-menu .popout-menu-item.invite {
-color: #FFF;
+color: #FFF!important;
 }
 
 .popout-menu .popout-menu-item {
@@ -343,7 +342,7 @@ color: #000044
 }
 
 .guild-channels .channel-text.selected:before {
-border-left: 4px solid #ffccff;	
+    border-left: 4px solid #751975!important;
 }
 
 .guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before {
@@ -393,16 +392,31 @@ color: #000044;
 opacity: .9;
 }
 
-#voice-connection {
-background: #824A59;
+#rtc-connection {
+    background: #824A59;
+	border-top: 2px solid #751975;
 }
 
-#voice-connection .voice-connection-channel {
-color: #D0D0D0
+
+#rtc-connection .rtc-connection-channel {
+color: #D0D0D0	;
+opacity: 1;
 }
 
-#voice-connection .btn {
+#rtc-connection .btn-info {
+border-right: 1px solid #751975;
+}
+
+#rtc-connection .btn-disconnect:after {
+opcaity: 1;
+}
+
+#rtc-connection .btn {
 background: #41252d;
+}
+
+#rtc-connection .btn-group {
+border: 1px solid #751975;
 }
 
 #voice-connection-popout section p {
@@ -446,7 +460,7 @@ color:rgba(99, 170, 171, 0.62);
 }
 
 		.popout p {
-		color: #000044;
+		color: #000044!important;
 }
 
 		.clipboard-input-inner input {
@@ -466,8 +480,8 @@ color:rgba(99, 170, 171, 0.62);
 }
 
 		.checkbox .checkbox-inner input[type=checkbox]:checked+span {
-		background-color: #9d7b90;
-		border-color: #751975;
+		background-color: #9d7b90!important;
+		border-color: #751975!important;
 }
 
 		.instant-invite-popout .actions .countdown {
@@ -475,11 +489,11 @@ color:rgba(99, 170, 171, 0.62);
 }
 
 		.form .btn-primary {
-		background-color: #5D3540;
+		background-color: #5D3540!important;
 }
 
 		.form .btn-primary:hover {
-		background-color: #9d7b90;
+		background-color: #9d7b90!important;
 }
 
 		.instant-invite-popout hr {
@@ -493,8 +507,13 @@ color:rgba(99, 170, 171, 0.62);
 .settings-section .control-groups {
 background: #E2C1B2;	
 }
+
 .form .control-groups {
 background: #E2C1B2;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 5px;
+padding-right: 5px;
 }
 
 .checkbox .checkbox-inner span {
@@ -506,12 +525,12 @@ border: 2px solid #751975;
 }
 
 .radio:hover span:after {
-background: #816578;
+background: #816578!important;
 opacity: .5;
 }
 
 .radio .radio-inner span:after {
-background: #816578;
+background: #816578!important;
 }
 
 .notification-settings-modal .notification-settings-modal-channel-settings-header {
@@ -544,7 +563,7 @@ border-bottom: 1px solid #000;
 
 .settings .settings-actions {
 background-color: #E2C1B2;
-border-top: 1px solid #7E86D7;
+border-top: 1px solid #751975;
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
@@ -561,7 +580,7 @@ background-color: #5D3540!important;
 }
 
 		.form header {
-		color: #000044;
+		color: #000044!important;
 		border-bottom: none;
 }
 
@@ -618,15 +637,23 @@ background-color: #5D3540;
 
 
 .tab-bar.SIDE .tab-bar-item:before {
-border-left: 4px solid #ffccff;
+border-left: 4px solid #7E86D7!important;
 }
 
 .user-settings-modal a {
 color: #007700;
 }
 
+.settings-connections-wrapper .tab-bar {
+margin: 0!important;
+background: #5D3540;
+padding-bottom: 10px!important;
+padding-top: 26px!important;
+padding-left: 26px!important;
+}
+
 .settings .settings-inner {
-background-color: #ead2c8;
+background-color: #F5E9E4;
 }
 
 .settings .settings-inner .settings-panel {
@@ -637,6 +664,24 @@ background: #F5E9E4;
 color: #000044;	
 }
 
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list h3 {
+color: #000044;
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .user-settings-modal-accounts-list-description .user-settings-modal-accounts-list-description-inner {
+color: #000044;	
+}
+
+.tab-bar.TOP {
+background: #5D3540;
+padding-top: 30px;
+padding-left: 40px;
+padding-bottom: 5px;
+margin-top: -28px;
+margin-left: -40px;
+margin-right: -40px;
+}	
+
 .form .control-group .help-text {
 color: #333333;
 }
@@ -645,12 +690,13 @@ color: #333333;
 color: #007700;
 }
 
+
 .user-settings-modal .link-button:hover {
 color: #00BB00;
 }
 
 .tab-bar.TOP .tab-bar-item {
-color: #777;
+color: #777!important;
 }
 
 .slider-handle {
@@ -801,6 +847,13 @@ background-color: #613843;
 		background: #5D3540;	
 }
 
+		.tooltip {
+		background-color: #824a59!important;
+}
+
+		.tooltip.tooltip-bottom:after {
+		border-bottom-color: #824a59!important;
+}		
 
 		/*================================= Chat Window and User List =================================*/
 
@@ -841,7 +894,7 @@ color: #D0D0D0;
 	background-color: #9d7b90;
 }
 .search-popout .option.selected{
-	background: linear-gradient(45deg,#9d7b90 0,#F5E9E4 85%);
+	background: linear-gradient(45deg,#9d7b90 5%,#E2C1B2);;
 	background-color:transparent
 }
 
@@ -929,8 +982,8 @@ color: #D0D0D0;
 
 .react-datepicker .react-datepicker__day.react-datepicker__day--selected:hover, .react-datepicker .react-datepicker__day:hover {
 	color: #000044;
-    background-color: #A78293;
-    opacity: 1;
+    	background-color: #A78293!important;
+    	opacity: 1;
 }
 
 
@@ -939,7 +992,7 @@ color: #D0D0D0;
 }
 
 .react-datepicker .react-datepicker__day.react-datepicker__day--today:after {
-	background-color: #751975;
+	background-color: #751975!important;
 }
 
 .theme-dark .search-results-wrap .search-header .tab, .theme-dark .search-results-wrap .search-header .total-results {
@@ -1018,11 +1071,13 @@ background-image: none;
 	.markdown-modal .markdown-modal-header {
 	color: #007700;
 	border-bottom: 1px solid #751975;
+	font-size:20px;
 }
 
 	.markdown-modal {
 	color: #000044;
 	background-color: #E2C1B2;
+	font-size:16px;
 }
 
 
@@ -1165,10 +1220,7 @@ background-color: #5D3540;
 }
 
 .theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
-opacity: .8;
-}
-
-.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+opacity: 1;
 color:#FFFFFF;
 }
 
@@ -1176,6 +1228,9 @@ color:#FFFFFF;
 background: #5D3540;
 }
 
+.chat .divider>div {
+height: 2px;	
+}
 
 		/*--------------------------Chat input--------------------------*/
 
@@ -1305,7 +1360,7 @@ background: #5D3540;
 		padding-bottom: 5px;
 }
 		.mention {
-		color: #007700;
+		color: #007700!important;
 		}
 
 /*--------------------------User List--------------------------*/
@@ -1395,12 +1450,25 @@ background-color: #5D3540;
 background-image: none;
 }
 
+#user-profile-modal .header:after {
+background-image: none
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+color: #DFDFDF;
+}
+
+
 .context-menu .item.danger:hover {
 background: #000;
 }
 
 .context-menu .item {
 color: #000044;
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag {
+color: #FFF;
 }
 
 #user-profile-modal .btn {
@@ -1411,14 +1479,37 @@ background-color: #5D3540;
 background-color: #9d7b90;
 }
 
+#user-profile-modal .tab-bar-container {
+background-color: #5D3540;
+}
+
+#user-profile-modal .tab-bar {
+    padding-top: 51px;
+}
+
 .tab-bar.TOP .tab-bar-item.selected {
-border-bottom: 2px solid #5D3540;
-color: #000044;
+border-bottom: 2px solid #FFF!important;
+color: #FFF!important;
+margin-bottom: 5px;
 }
 
 .tab-bar.TOP .tab-bar-item:hover {
-color: #000044;
-border-bottom: 2px solid #9d7b90;
+ color: #D0D0D0!important;
+ border-bottom: 2px solid #DFDFDF!important;
+ margin-bottom: 5px;
+}
+
+#user-profile-modal .tab-bar .tab-bar-item {
+ padding: 0 5px 10px;
+}
+
+.tab-bar.TOP .tab-bar-item {
+color: #777!important;
+}
+
+#user-profile-modal .scroller {
+    background: #E2C1B2;
+    background-image: -webkit-linear-gradient(top,hsla(0,0%,100%,0),#fff);
 }
 
 #user-profile-modal .guilds .guild {
@@ -1475,7 +1566,7 @@ background: linear-gradient(45deg,#E2C1B2 5%,#9d7b90);
 }
 
 .private-channels .channel.selected:before {
-border-left: 2px solid #ffccff;
+border-left: 4px solid #751975!important;
 }
 
 .private-channels .channel .icon-friends {
@@ -1487,7 +1578,7 @@ background-color: #816578;
 }
 
 .private-channels .channel.selected .icon-friends {
-background-color: #816578;
+background-color: #816578!important;
 }
 
 .private-channels header {
@@ -1521,7 +1612,7 @@ color: #007700;
 }
 
 		#friends .btn {
-		background-color: #613843;
+		background-color: #613843!important;
 		color: #FFF;
 }
 
@@ -1544,7 +1635,7 @@ color: #007700;
 }
 
 		.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
-		background-color: #824a59;
+		background-color: #824a59!important;
 }
 
 		.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
@@ -1555,7 +1646,7 @@ color: #007700;
 
 		.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
 		background-color: #fff;
-		color: #FFF;
+		color: #FFF!important;
 }
 
 		.theme-dark #friends .friends-header .tab-bar .tab-bar-item {
@@ -1662,11 +1753,11 @@ color:#FFF;
 }
 
 .private-channel-recipients-invite .footer button:hover {
-background-color: #9d7b90;
+background-color: #9d7b90!important;
 }
 
 .private-channel-recipients-invite .footer button {
-background-color: #41252d;
+background-color: #41252d!important;
 }
 
 .private-channel-recipients-invite .footer button:disabled {
@@ -1761,7 +1852,7 @@ background-color: #5D3540;
 }	
 
 .theme-dark .messages-popout-wrap .messages-popout .message-group {
-border-color: #AA8997;
+border-color: #751975;
 background-color: #F5E9E4;
 }
 
@@ -1774,8 +1865,22 @@ box-shadow: 0 0 6px 4px #AA8997;
 background-color: #613843;
 }
 
+.recent-mentions-popout .header .tab-bar.TOP {
+margin-bottom: 5px;
+padding-top: 0;
+padding-left: 0;
+padding-bottom: 0;
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+}
+
 .theme-dark .themed-popout .text {
 color: #FFF;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
+border-color: #ffccff;
 }
 
 .theme-dark .recent-mentions-popout .tab-bar-item.selected {
@@ -1809,6 +1914,13 @@ background-color: #5D3540;
 
 .protip.popout-footer .tip {
 color: #D0D0D0;
+}
+
+
+.theme-dark .messages-popout-wrap .has-more button {
+    background: #5D3540;
+    border: 1px solid #751975;
+    color: #FFF!important;
 }
 /*================================= Admin Stuff =================================*/
 
@@ -1856,7 +1968,7 @@ margin-left: 55px;
 }
 
 .settings .settings-inner .settings-panel-with-header {
-background: #E2C1B2;
+background: #F5E9E4;
 }
 
 .guild-settings-modal-members .guild-settings-modal-list .member .avatar-small {
