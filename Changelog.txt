@@ -1,3 +1,7 @@
+Changelog: 1.06 (17th May 2017)
+-recolored Settings
+-recolored/fixed other minor stuff like blocked messages,buttons and boxes
+
 Changelog: 1.05 (30th April 2017)
 -removed the 3rd black layer which covered the background picture
 -fixed colors of buttons,fonts borders and backgrounds
