@@ -1,4 +1,4 @@
-//META{"name":"Shiratsuyu_Theme","description":"pink fluffy DDs in Yukatas","author":"Flonneon","version":"1.05"}*//
+//META{"name":"Shiratsuyu_Theme","description":"pink fluffy DDs in Yukatas","author":"Flonneon","version":"1.06"}*//
 		/*================================= Background =================================*/
 
 
@@ -31,68 +31,69 @@ background-size: cover;
 
 
 .tooltip{
-background-color:#484361;color:#FFF
+background-color:#484361!important;
+color:#FFF!important;
 }
 
 .tooltip.tooltip-top:after{
-border-top-color:#484361
+border-top-color:#484361!important;
 }
 
 .tooltip.tooltip-bottom:after{
-border-bottom-color:#484361
+border-bottom-color:#484361!important;
 }
 
 .tooltip.tooltip-left:after{
-border-left-color:#484361
+border-left-color:#484361!important;
 }
 
 .tooltip.tooltip-right:after{
-border-right-color:#484361
+border-right-color:#484361!important;
 }
 
 .upload-drop-modal {
-background: #824a59;
+background: #824a59!important;
 }
 
 .upload-drop-modal .inner {
-border:2px dashed #FFF
+border:2px dashed #FFF!important;
 }
 
 .upload-drop-modal .bgScale{
-border-radius:5px;
-background:#AA8997
+border-radius:5px!important;
+background:#AA8997!important;
 }
 
 .upload-modal {
-background-color: #824a59;
+background-color: #824a59!important;
 }
 
 .upload-modal .footer {
-background-color: #F5E9E4;	
+background-color: #F5E9E4!important;	
 }
 
 .upload-modal .inner {
-border: 2px dashed #FFF;
+border: 2px dashed #FFF!important;
 }
 
 .upload-modal .footer .button {
-background-color: #D5A690;
-color: #613843;
 }
 
 .upload-modal .footer .button:hover {
-text-decoration: none;
-background-color: #F5E9E4;
+text-decoration: none!important;
+    background-color: #816578!important;
+    color: #FFF!important;
+}
 }
 
 .upload-modal .footer .button-primary {
-color: #FFF;
-background-color: #5D3540;
+color: #FFF!important;
+background-color: #5D3540!important;
 }
 
 .upload-modal .footer .button-primary:hover {
-opacity: 1;
-background: #816578;
+opacity: 1!important;
+background: #816578!important;
 }
 
 
@@ -500,7 +501,34 @@ color:rgba(99, 170, 171, 0.62);
 		border: 1px solid #000;
 }
 
+		.bd-blue #instant-invite-modal .copy {
+		background-color: #824a59;
+}
+		#instant-invite-modal .copy {
+		background-color: #824a59;
+}
 
+		#instant-invite-modal-advanced .form-actions .btn-default {
+		background-color: #d5a690;
+		color: #5D3540;
+}
+
+		#instant-invite-modal-advanced .form-actions {
+		background-color: #EAD2C7;
+}
+		#instant-invite-modal .form-actions {
+		background-color: #EAD2C7;	
+		}
+
+		#instant-invite-modal .blurb {
+		 color: #000044;
+}
+		
+		.form .control-group .help-text {		
+		color: #000044;
+}
+
+		
 /*--------------------------Notification Settings--------------------------*/
 
 
@@ -570,6 +598,10 @@ border-top: 1px solid #751975;
 background-color: #5D3540!important;
 }
 
+.notification-settings-modal .mute-server .checkbox .help-text {
+    margin-bottom: 15px;
+}
+
 
 /*--------------------------Privacy Settings and Nickname--------------------------*/
 
@@ -630,11 +662,311 @@ background-color: #5D3540!important;
 
 /*--------------------------Settings--------------------------*/
 
+.theme-dark .ui-standard-sidebar-view {
+background: transparent;
+}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+background: #613843;
+opacity: 0.9;
+}
+
+.theme-dark .ui-standard-sidebar-view .content-region {
+background: #E2C1B2;
+opacity: 0.9;
+}
+
+.theme-dark .ui-tab-bar-header {
+color: #FFF;
+}
+
+.bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item.selected {
+background-color: transparent;
+background: linear-gradient(90deg,#E2C1B2 1%,#9d7b90);
+}
+
+.theme-dark .ui-tab-bar-item:hover {
+color: #f6f6f7;
+background-color: hsla(19,45%,79%,.4);
+}
+
+.bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item.brand {
+color: #AAAAEE;
+}
+
+.theme-dark .ui-form-title.h5 {
+color: #FFF;
+}
+
+.theme-dark .ui-form-text.style-description, .theme-dark .ui-form-text.style-label-descriptor {
+color: #000044;
+}
+
+.theme-dark .ui-card-primary {
+background: #F5E9E4;
+border-color: #751975;
+}
+
+.theme-dark .ui-button.primary.link {
+    color: #824a59;
+    background: #E2C1B2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bd-blue .ui-button.brand.filled {
+background-color: #5D3540;
+}
+
+.theme-dark .ui-card-primary .ui-form-title.h5 {
+    color: #FFF;
+    margin-right: 075px;
+}
+
+.theme-dark .ui-card-primary.editable .ui-form-title.h5 {
+color: #FFF;
+}
+
+.theme-dark .avatar-uploader .remove-button:hover {
+color: #880000;
+}
+.theme-dark .avatar-uploader .remove-button {
+color: #000044;
+}
+
+.theme-dark .ui-form-divider {
+    background-color: #751975;
+}
+
+.theme-dark .ui-card-primary.editable {
+    background: #F5E9E4
+}
+
+.ui-button.green.filled {
+background-color: #5D3540;
+}
+
+.ui-button.green.filled:hover {
+    background-color: #816578;
+}
+
+.bd-blue .theme-dark .ui-text-input .input:focus {
+    border-color: #ffccff;
+}
+
+.theme-dark .ui-text-input .input, .theme-dark .ui-text-input .input.editable:focus, .theme-dark .ui-text-input .input.editable:hover {
+    color: #000044;
+    background-color: #E2C1B2;
+    border-color: #751975;
+}
+
+.theme-dark .ui-text-input .input.editable:focus:hover, .theme-dark .ui-text-input .input.editable:hover:hover, .theme-dark .ui-text-input .input:hover {
+    border-color: #484361;
+}
+
+.theme-dark .ui-button.primary.link:not(:disabled):active .ui-button-contents, .theme-dark .ui-button.primary.link:not(:disabled):hover .ui-button-contents {
+background-image: linear-gradient(to top,transparent,transparent 1px,#824a59 1px,#824a59 2px,transparent 2px);
+}
+
+.theme-dark .ui-standard-sidebar-view .esc-text {
+    color: #004400;
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close {
+    border-color: #004400;
+}
+
+path {
+fill: rgb(0, 68, 0);
+d: path('M 9.5 3.205 L 8.795 2.5 L 6 5.295 L 3.205 2.5 l -0.705 0.705 L 5.295 6 L 2.5 8.795 l 0.705 0.705 L 6 6.705 L 8.795 9.5 l 0.705 -0.705 L 6.705 6');
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close:hover {
+    background-color: #A78293;
+}
+
+.theme-dark .ui-card-primary:not(.editable):not(.outline) .ui-form-text {
+    color: #000044;
+}
+
+.theme-dark .ui-radiogroup .desc {
+    color: #000044;
+}
+
+.bd-blue .ui-switch-checkbox:checked+.ui-switch {
+    background: #7E86D7;
+}
+
+.ui-switch {
+background: #484361;
+}
+
+.theme-dark .ui-form-text {
+    color: #000044;
+}
+
+.theme-dark .ui-button.primary.outlined {
+    background: #824a59;
+}
+
+.theme-dark .ui-select .Select-control {
+    background: #F5E9E4;
+    border: 1px solid #751975;
+}
+
+.theme-dark .ui-select .Select-value-label {
+    color: #000044;
+}
+
+.theme-dark .ui-select .is-focused .Select-control {
+    border-color: #7E86D7
+}
+
+.theme-dark .ui-select .Select-option.is-selected {
+    background: linear-gradient(90deg,#E2C1B2 1%,#9d7b90);
+    color: #000044;
+	border: 1px solid #751975;
+}
+
+.theme-dark .ui-select .Select-option {
+    background: #F5E9E4;
+    color: #000044;
+    border: 1px solid #751975;
+}
+
+.theme-dark .ui-select .Select-option.is-focused, .theme-dark .ui-select .Select-option:hover {
+    background: hsla(323,15%,55%,.6);
+    color: #000044;
+    border: 1px solid #751975;
+}
+
+.theme-dark .ui-select .Select-menu-outer {
+    border-color: #751975;
+    background: #F5E9E4;
+}
+
+.theme-dark .ui-form-title {
+    color: #f6f6f7;
+    background: #824a59;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+	padding-right: 5px;
+}
+
+.theme-dark .ui-slider .slider-grabber .bubble {
+    background-color: #9d7b90;
+}
+
+.ui-slider .slider-grabber {
+    border: #751975;
+}
+
+.theme-dark .ui-slider .slider-bar {
+    background: #484361;
+}
+
+.bd-blue .ui-slider .slider-bar-fill {
+    background: #7E86D7;
+}
+
+.bd-blue *[style*="background-color: rgb(114, 137, 218)"] {
+    background-color: #613843!important;
+}
+
+.bd-blue *[style*="border-color: rgb(114, 137, 218)"] {
+    border-color: #751975!important;
+}
+
+.user-settings-voice .input-sensitivity-toggle.manual .slider-bar-fill {
+    background-color: #7E86D7;
+}
+
+.user-settings-voice .input-sensitivity-toggle.manual .slider-bar {
+    background-color: #484361;
+}
+
+.theme-dark .ui-checkbox {
+    border-color: #751975;
+}
+
+.ui-radiogroup .ui-card:last-child {
+    color: #000044;
+}
+
+.theme-dark .ui-input-button {
+    background-color: #F5E9E4;
+    border-color: #751975;
+}
+
+.theme-dark .ui-button.grey.ghost {
+    color: #000044;
+}
+
+.ui-button.red.outlined {
+    color: #AA0000;
+    border-color: rgba(240,71,71,.3);
+    background: #F5E9E4;
+}
+
+.ui-radiogroup .info {
+    color: #000044;
+}
+
+.theme-dark .ui-input-button .input {
+    color: #000044;
+}
+
+.theme-dark .ui-hover-card:before {
+    background-color: #F5E9E4;
+    border-color: #751975;
+}
+
+.theme-dark .round-remove-button:hover {
+    background-color: #484361;
+}
+
+.theme-dark .round-remove-button {
+    background-color: #EAD2C7;
+}
+
+.theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected {
+    background-color: #613843;
+}
+
+.theme-dark .user-settings-games .game-name {
+    color: #000044;
+}
+
+.theme-dark .user-settings-games .now-playing-add, .theme-light .user-settings-games .now-playing-add {
+    color: #000044;
+}
+
+.ui-button.link-color.link {
+    color: #008800;
+}
+
+.theme-dark .ui-card a {
+    color: #007700;
+}
+
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
+    background: #F5E9E4;
+    border-top: 1px solid #751975;
+}
+
+.bda-slist .bda-name {
+    color: #000044;
+}
+
+.ui-standard-sidebar-view .bda-slist .bda-description {
+    border-top: 1px solid #751975;
+    color: #000044;
+}
 
 .settings .settings-header {
 background-color: #5D3540;
 }
-
 
 .tab-bar.SIDE .tab-bar-item:before {
 border-left: 4px solid #7E86D7!important;
@@ -806,6 +1138,7 @@ background-color: #E2C1B2;
 .btn-confirm .btn {
 background-color: #613843;
 }
+
 		/*--------------------------Context Menu--------------------------*/
 
 		
@@ -1198,7 +1531,24 @@ font-size: 12px;
     border: 1px solid #751975;	
 }
 
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    border-color: #484361;
+    background: transparent;
+}
 
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: transparent;
+    border-color: #484361;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: #B59A8E;
+    color: #880000;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: #A78293;
+}
 
 		/*--------------------------Scrollbar--------------------------*/
 
@@ -1232,6 +1582,25 @@ background: #5D3540;
 height: 2px;	
 }
 
+.theme-dark .invite-button {
+background-color: #613843;
+border-color: #751975;
+}
+
+.message-group .mentioned .message-text:after {
+background: transparent;
+border-left: none;
+}
+		
+.theme-dark .message-group .mentioned .message-text {
+background: #E2C1B2;
+border: 2px solid #751975;
+padding-bottom: 5px;
+}
+.mention {
+color: #007700!important;
+}
+		
 		/*--------------------------Chat input--------------------------*/
 
 		
@@ -1349,19 +1718,7 @@ height: 2px;
 		color:#004400!important;
 }
 
-		.message-group .mentioned .message-text:after {
-		background: transparent;
-		border-left: none;
-		}
-		
-		.theme-dark .message-group .mentioned .message-text {
-		background: #E2C1B2;
-		border: 2px solid #751975;
-		padding-bottom: 5px;
-}
-		.mention {
-		color: #007700!important;
-		}
+
 
 /*--------------------------User List--------------------------*/
 
@@ -1823,8 +2180,8 @@ background-color: #484361;
 
 /*--------------------------Help Pop-Up--------------------------*/		
 
-.need-help-modal .header {
-background-color: #5D3540;	
+.bd-blue .need-help-modal .header {
+    background-color: #5D3540;
 }
 
 .need-help-modal .header input[type=text] {
