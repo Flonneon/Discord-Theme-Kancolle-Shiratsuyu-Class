@@ -1,3 +1,7 @@
+Changelog: 1.06.1 (10th June 2017)
+-reworked the theme
+-Public servers,uploading and admin pages are gonne be fixed tomorrow
+
 Changelog: 1.06 (17th May 2017)
 -recolored Settings
 -recolored/fixed other minor stuff like blocked messages,buttons and boxes

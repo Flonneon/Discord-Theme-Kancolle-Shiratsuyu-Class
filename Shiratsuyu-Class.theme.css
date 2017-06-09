@@ -1,4 +1,5 @@
 //META{"name":"Shiratsuyu_Theme","description":"pink fluffy DDs in Yukatas","author":"Flonneon","version":"1.06"}*//
+
 		/*================================= Background =================================*/
 
 
@@ -11,20 +12,21 @@ background-size: cover;
 		/*================================= OPACITY Client =================================*/	
 
 
-	.theme-dark .chat .content, .theme-dark .friends-table, .theme-dark .messages-wrapper {
+		
+	.theme-dark .chat .content, .theme-dark .friends-table, .theme-dark .messages-wrapper {x
 	opacity: .9;
 	background-color: #F5E9E4;
 }
 
-	.theme-dark .layers {
+	.theme-dark .layers {x
     background: transparent;
 }
 
-	.theme-dark .chat{
+	.theme-dark .chat{x
 	background:transparent;
 }
 
-.theme-dark .layer, .theme-dark .layers {
+.theme-dark .layer, .theme-dark .layers {x
         background: transparent;
 }
 		/*================================= Tooltips =================================*/	
@@ -215,6 +217,63 @@ background-color: #824a59 !important;
 
 		/*================================= Channels =================================*/
 	
+
+.container-RYiLUQ {
+background-color:transparent;
+}
+
+
+.wrapperDefault-1Dl4SS, .wrapperHovered-1KDCyZ, .wrapperMuted-PmsxPn, .wrapperUnread-450E16 {
+padding-top: 20px;
+padding-right: 0;
+padding-left: 0;
+}
+
+.popout-open .header-1tSljs {
+background-color: #5D3540;
+}
+
+.nameDefault-Lnjrwm {
+    color: #D0D0D0;
+    background-color: #824a59;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.content-2mSKOj {
+	margin: 1px 0 1px 0px;
+}
+
+.header-1tSljs {
+background-color: #5D3540;
+}
+
+.header-1tSljs:hover {
+background-color: #9d7b90;
+}
+
+.contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active {
+    background-color: transparent;
+    background: linear-gradient(45deg,#E2C1B2 5%,#9d7b90);
+}
+
+.nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: #000044;
+    opacity: 0.7;
+}
+
+.nameHoveredText-2FFqiz {
+    color: #FFF;
+    opacity: 0.9;
+}
+
+
 	
 .channels-wrap {
 Background: #E2C1B2;
@@ -1532,22 +1591,23 @@ font-size: 12px;
 }
 
 .theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
-    border-color: #484361;
+    border-color: transparent;
     background: transparent;
 }
 
 .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
     background: transparent;
-    border-color: #484361;
+    border-color: transparent;
 }
 
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
-    background: #B59A8E;
-    color: #880000;
+    background: transparent;
+    color: transparent;
+	padding:0;
 }
 
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
-    background: #A78293;
+    background: transparent;
 }
 
 		/*--------------------------Scrollbar--------------------------*/
